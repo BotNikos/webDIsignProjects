@@ -1,0 +1,218 @@
+:root {
+    --montserrat: "Montserrat", sans-serif;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation span {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--montserrat);
+
+    color: #9C4DEC;
+
+    margin-left: 5px;
+}
+
+.navigation-title {
+    font-family: var(--montserrat);
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #555;
+
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+
+.article {
+    font-family: var(--montserrat);
+    font-size: 13px;
+    font-weight: 400;
+
+    color: #828282;
+}
+
+.excursion-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.excursion-photos {
+    display: flex;
+    flex-direction: row;
+}
+
+.all-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-photo {
+    margin-left: 15px;
+}
+
+.excursion-about {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 30px;
+
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.excursion-about-title {
+    color: #555555;
+
+    font-family: var(--montserrat);
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+.excursion-about-text {
+    color: #555555;
+
+    font-family: var(--montserrat);
+    font-weight: 700px;
+    font-size: 14px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.excursion-price {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 40px;
+
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.excursion-price-value {
+    margin-bottom: 40px;
+}
+
+.excursion-price-value--value {
+    font-family: var(--montserrat);
+    font-size: 35px;
+    font-weight: 700;
+    color: #555555;
+}
+
+.excursion-price-value--human {
+    font-family: var(--montserrat);
+    font-size: 13px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.excursion-price--included {
+    display: flex;
+    flex-direction: column;
+
+    color: #555;
+    font-family: var(--montserrat);
+}
+
+.included--title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.included--item {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.excursion-price-button {
+    border: none;
+    border-radius: 65px;
+    color: white;
+    background-color: #FFBF1B;
+    padding: 10px 30px;
+
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+    margin-top: 30px;
+}
+
+.description-and-route {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: var(--montserrat);
+    color: #555;
+
+    margin-top: 30px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+
+    width: 65%;
+
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 30px;
+
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.description--title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.description--content {
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.route {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 30px;
+
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.route-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.route-item {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.route-item span {
+    margin-left: 33px;
+}

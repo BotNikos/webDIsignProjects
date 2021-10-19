@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    font-family: "Lato", sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: url(images/background.png) no-repeat;
+    height: 100vh;
+}
+
+.chats {
+    width: 5%;
+
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.chats--chat1 {
+    background-color: #FF5733;
+    padding: 12px;
+    border-radius: 50%;
+    opacity: .5;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.chats--chat1:hover {
+    opacity: 1;
+}
+
+.chats--append {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    opacity: .1;
+    width: 25px;
+    height: 25px;
+
+    padding: 12px;
+    border-radius: 50%;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+.chats--append:hover {
+    opacity: 1; 
+}
+
+.channels {
+    width: 20%;
+
+    background: rgba(37, 39, 42, 0.7);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.chat-area {
+    width: 55%;
+
+    background-color: #fff;
+}
+
+.user-info {
+    width: 20%;
+
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.channels--setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700px;
+
+    padding: 0 25px;
+}
+
