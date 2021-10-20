@@ -132,10 +132,15 @@ body {
 }
 
 .channels--treads {
-    width: 25%;
+    width: 40%;
     color: #B5B5B5;
     font-size: 14px;
     font-weight: 400;
+}
+
+.channels--list {
+    height: 40%;
+    overflow: hidden;
 }
 
 .list--header {
@@ -145,7 +150,7 @@ body {
 }
 
 .list--chats {
-    height: 100%;
+    height: 80%;
     overflow-y: auto;
 }
 
@@ -158,7 +163,7 @@ body {
     padding: 5px 15px;
     margin-bottom: 12px;
 
-    width: 90%;
+    width: 85%;
 }
 
 .chats--channel-active {
@@ -169,3 +174,79 @@ body {
     border-radius: 5px;
 }
 
+.friend--status-point-active {
+    background-color: rgb(112, 204, 22);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.list--friend {
+    margin-bottom: 10px;
+}
+
+.friend--status-point {
+    background-color: rgb(102, 102, 102);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.friend--avatar {
+    background: url(images/Photo.png) no-repeat center center;
+    width: 32px;
+    height: 32px;
+
+    border-radius: 5px;
+}
+
+.friend--name {
+    color: #B5B5B5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header {
+    padding: 30px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.header--title {
+    font-size: 20px;
+    font-weight: 700;
+    width: 60%;
+}
+
+.count-peoples {
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.search-bar {
+    border: 1px solid #8D8D8D;
+
+    border-radius: 5px;
+    padding: 8px 16px;
+
+    width: 40%;
+}
+
+.search-bar svg {
+    cursor: pointer;
+}
+
+.search-bar--input {
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400px;
+
+    border: none;
+    outline: none;
+}
+
+.tools-icons {
+    width: 10%;
+    padding: 0 10px;
+}
